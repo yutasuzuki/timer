@@ -55,7 +55,7 @@ class App extends Component {
       bufferSource: ''
     }
 
-    audio('../bell.mp3').then((buffer) => {
+    audio('./timer/bell.mp3').then((buffer) => {
       var source = audioContext.createBufferSource();
       this.setState({bufferSource: source})
       this.state.bufferSource.buffer = buffer;
