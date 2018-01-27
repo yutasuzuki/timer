@@ -1983,7 +1983,7 @@ var App = function (_Component) {
       bufferSource: ''
     };
 
-    audio('./timer/bell.mp3').then(function (buffer) {
+    audio('./bell.mp3').then(function (buffer) {
       var source = audioContext.createBufferSource();
       _this.setState({ bufferSource: source });
       _this.state.bufferSource.buffer = buffer;
