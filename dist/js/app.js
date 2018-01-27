@@ -2037,7 +2037,7 @@ var App = function (_Component) {
       return _react2.default.createElement(
         'div',
         { className: 'timer-container', style: { 'backgroundImage': 'url(' + this.state.backgroundImage + '?auto=format&fit=crop&w=1618&q=80)' } },
-        _react2.default.createElement('input', { className: 'timer', type: 'number', value: this.state.time, onChange: this.changeTime.bind(this) })
+        _react2.default.createElement('input', { className: 'timer', type: 'text', value: this.state.time, onChange: this.changeTime.bind(this) })
       );
     }
   }]);
