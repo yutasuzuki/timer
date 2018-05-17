@@ -98,8 +98,13 @@ class App extends Component {
 
   render() {
     return (
+<<<<<<< HEAD
       <div className='timer-container' style={{'backgroundImage': `url(${this.state.backgroundImage}?auto=format&fit=crop&w=1618&q=80)`}}>
         <input className='timer' type='text' value={this.state.time} onChange={this.changeTime.bind(this)}/>
+=======
+      <div className='timer-container' style={{'backgroundImage': `url(https://images.unsplash.com/photo-1484151709479-3996843263cf?auto=format&fit=crop&w=1618&q=80)`}}>
+        <input className='timer' type='number' value={this.state.time} onChange={this.changeTime.bind(this)}/>
+>>>>>>> master
       </div>
     )
   }
