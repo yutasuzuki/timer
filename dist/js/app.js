@@ -2036,13 +2036,8 @@ var App = function (_Component) {
     value: function render() {
       return _react2.default.createElement(
         'div',
-<<<<<<< HEAD
         { className: 'timer-container', style: { 'backgroundImage': 'url(' + this.state.backgroundImage + '?auto=format&fit=crop&w=1618&q=80)' } },
         _react2.default.createElement('input', { className: 'timer', type: 'text', value: this.state.time, onChange: this.changeTime.bind(this) })
-=======
-        { className: 'timer-container', style: { 'backgroundImage': 'url(https://images.unsplash.com/photo-1484151709479-3996843263cf?auto=format&fit=crop&w=1618&q=80)' } },
-        _react2.default.createElement('input', { className: 'timer', type: 'number', value: this.state.time, onChange: this.changeTime.bind(this) })
->>>>>>> master
       );
     }
   }]);
